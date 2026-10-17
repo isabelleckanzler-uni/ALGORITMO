@@ -1,0 +1,20 @@
+algoritmo "At5-retorno"
+funcao multiplicar ( n1, n2: inteiro) : inteiro
+  inicio
+    retorne  n1 * n2
+
+fimfuncao
+var
+  n1, n2 :inteiro
+  result: inteiro
+
+inicio
+  escreval ("MULTIPLICAÇÃO")
+  escreval( "Digite um número ")
+  leia (n1)
+  escreval( "Digite um outro número ")
+  leia (n2)
+  result <- multiplicar (n1 ,n2)
+  escreval("O resultado retornado é :" , result)
+
+fimalgoritmo

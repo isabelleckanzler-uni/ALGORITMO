@@ -1,0 +1,10 @@
+algoritmo "At5-semretorno"
+procedimento frase
+  inicio
+    escreval( "HELLO WORLD ")
+fimprocedimento
+
+inicio
+  escreval ("FRASES DE PROGRAMADOR ")
+  frase
+fimalgoritmo
