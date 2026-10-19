@@ -1,0 +1,19 @@
+algoritmo "triangulo"
+
+var
+  L1,L2, L3 : real
+  EQ , ES : logico
+
+inicio
+  escreval("Digite 1º lado:")
+  leia(L1)
+  escreval("Digite 2º lado: ")
+  leia(L2)
+  escreval("Digite 3º lado: ")
+  leia(L3)
+  EQ <- (L1 = L2) e (L2 = L3)
+  ES <- (L1<> L2) e (L2 <> L3) e (L1 <> L3)
+  escreval ( " O triangulo é EQUILATERO  " + EQ)
+  escreval ( " O triangulo è ESCALENO "+ ES)
+
+fimalgoritmo
