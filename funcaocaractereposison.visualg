@@ -1,0 +1,18 @@
+algoritmo "Funcaocaractere"
+
+var
+   text: caractere
+
+inicio
+   
+    text<- "ISABELLE KANZLER"
+   
+   escreval("Texto original: ", text)
+   escreval("Cópia dos 3 primeiros caracteres: "+ copia(text, 1, 3))
+   escreval("Quantidade de caracteres:" , compr(text))
+   escreval("Texto maiúsculas:", maiusc(text))
+   escreval("Texto minúsculas: " , minusc(text))
+   escreval("Posição de 's': ", pos(minusc(text), "s"))    
+   
+
+fimalgoritmo

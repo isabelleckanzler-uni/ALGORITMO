@@ -1,0 +1,45 @@
+algoritmo "funcaoconversao"
+
+var
+  num: inteiro
+  text: caractere
+  opcao: inteiro
+  result: inteiro
+  num1: inteiro
+
+inicio
+  escreval("Escolher qual função vai fazer:")
+  escreval ("1- Converte número para caractere, 2-Converte caractere para número 3-Converte caractere para número operações")
+  leia(opcao)
+  escolha opcao
+    caso 1
+    escreva(" Número para caractere : ")
+    escreval("Digite um número:")
+    leia(num)
+    text <-numpcarac(num)
+    escreval ("Número :",num)
+    escreval ("Número convertido para caractere :", text)
+    caso 2 
+    escreva(" Caractere para número : ")
+    escreval("Digite um número (como texto):")
+    leia(text)
+    num <-caracpnum(text)
+    escreval ("Número :", text)
+    escreval ("Caractere convertido para número :", num)
+    caso 3
+    escreva(" Caractere para número Soma: ")
+    escreval("Digite um número (como texto ):")
+    leia(text) 
+    escreval("Digite um número:")
+    leia (num1)
+    num <- caracpnum("1")
+    escreval("num", num)
+     escreval("num1", num1)
+     
+    result <- num + num1
+    escreval("result", result)
+    escreval ("Soma de ",num1," com ", text ," : ", result)
+
+ fimescolha
+
+fimalgoritmo
